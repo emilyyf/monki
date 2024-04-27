@@ -33,6 +33,8 @@ const (
 	IF         = "IF"
 	ELSE       = "ELSE"
 	RETURN     = "RETURN"
+	EQ         = "=="
+	NEQ        = "!="
 )
 
 var keywords = map[string]TokenType{
